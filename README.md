@@ -8,6 +8,32 @@
 - ChromeDriver
 - 読書メーターのアカウント
 
+# Installation
+
+```bash
+$ pip install git+https://github.com/qwq00/convert-bookmeter
+```
+
+# Usage
+
+```bash
+$ convert-bookmeter
+Starting Chrome...  # Chrome window opens
+Enter the date you would like to set if the 'Date Read Unknown' is available.
+If you do not want to set it, press enter.
+(e.g.: 2008-05-01
+# Enter the date you want to set
+Please enter your email address.
+# Enter the email address for your account
+Please enter your password.
+# Enter your account password
+Login success.
+Book count: 100 # Total number of books read
+50 books converted.
+100 books converted.
+CSV output complete!
+```
+
 # CSV Format
 
 | サービス ID(固定) | ASIN         | 13 桁 ISBN(固定) | カテゴリ(固定) | 評価(固定) | 読書状況(固定) | レビュー | タグ(固定) | 非公開メモ(固定) | 登録日時              | 読了日                |
