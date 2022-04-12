@@ -202,9 +202,9 @@ def csv_conversion(tuple_data):
 
     for i, url in enumerate(tuple_data[1]):
         driver.get(url)
+        time.sleep(3)
         wait.until(EC.visibility_of_element_located(
             (By.CLASS_NAME, "read-book")))
-        time.sleep(3)
 
         # CSV情報の設定
         # サービスID
