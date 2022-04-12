@@ -21,7 +21,7 @@ $ convert-bookmeter
 Starting Chrome...  # Chrome window opens
 Enter the date you would like to set if the 'Date Read Unknown' is available.
 If you do not want to set it, press enter.
-(e.g.: 2008-05-01
+(e.g.: 2008-05-01)
 # Enter the date you want to set
 Please enter your email address.
 # Enter the email address for your account
