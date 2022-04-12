@@ -48,7 +48,7 @@ def set_input_date():
     """
 
     print("Enter the date you would like to set if the 'Date Read Unknown' is available.\nIf you do not want to set it, press enter.")
-    print("(e.g.: 2008-05-01")
+    print("(e.g.: 2008-05-01)")
     input_date = input()
     if len(input_date) != 0 and not (check_date(input_date)):
         # 日付の再入力
@@ -202,9 +202,9 @@ def csv_conversion(tuple_data):
 
     for i, url in enumerate(tuple_data[1]):
         driver.get(url)
+        time.sleep(3)
         wait.until(EC.visibility_of_element_located(
             (By.CLASS_NAME, "read-book")))
-        time.sleep(3)
 
         # CSV情報の設定
         # サービスID
