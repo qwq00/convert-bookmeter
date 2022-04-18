@@ -11,8 +11,13 @@ from selenium.webdriver.common.by import By
 import chromedriver_binary
 
 root_url = "https://bookmeter.com/"
-# Chromeを準備
-driver = webdriver.Chrome()
+# Chrome起動オプション
+options = webdriver.ChromeOptions()
+options.add_argument('--headless')
+options.add_argument('--disable-dev-shm-usage')
+options.add_argument('--disable-gpu')
+options.add_argument('--no-sandbox')
+driver = webdriver.Chrome(options=options)
 wait = WebDriverWait(driver, 10)
 
 
