@@ -292,8 +292,6 @@ def main():
     user_id = user_home()
     tuple_data = books_read(user_id, input_date)
     csv_conversion(tuple_data)
-
-    # ブラウザを閉じる
     driver.quit()
 
 
