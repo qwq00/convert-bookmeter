@@ -7,6 +7,7 @@
 - Chrome
 - Python 3.9
 - ChromeDriver
+- Selenium
 - webdriver_manager
 - 読書メーターのアカウント
 
