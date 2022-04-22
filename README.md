@@ -4,8 +4,10 @@
 
 # Requirement
 
+- Chrome
 - Python 3.9
 - ChromeDriver
+- webdriver_manager
 - 読書メーターのアカウント
 
 # Installation
